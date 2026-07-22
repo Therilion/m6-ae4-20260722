@@ -1,0 +1,25 @@
+{
+  "name": "ejercicio-aws",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicación de ejemplo con Node, TypeScript y Express, empaquetada con Docker",
+  "type": "module",
+  "packageManager": "pnpm@11.16.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "dev": "node --watch src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.13.3",
+    "typescript": "^7.0.2"
+  }
+}

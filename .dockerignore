@@ -1,0 +1,28 @@
+# Dependencias y artefactos: se generan dentro de la imagen
+node_modules
+dist
+
+# Control de versiones y herramientas
+.git
+.gitignore
+.github
+.claude
+.vscode
+.idea
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Documentación
+README.md
+*.md
+
+# Entorno y logs
+.env
+.env.*
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
